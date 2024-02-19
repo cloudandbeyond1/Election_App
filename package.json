@@ -1,23 +1,19 @@
 {
-  "name": "postgresql",
+  "name": "helloworld",
+  "description": "Simple hello world sample in Node",
   "version": "1.0.0",
-  "description": "",
-    "private": true,
-  "main": "data.js",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node data.js"
+    "start": "node index.js"
   },
-   "engines": {
+  "engines": {
     "node": ">=16.0.0"
   },
   "author": "Google LLC",
   "license": "Apache-2.0",
-   "keywords": [],
-
   "dependencies": {
-    "express": "^4.18.2",
-    "open": "^10.0.3",
-    "pg": "^8.11.3"
+    "express": "^4.17.1"
   }
 }
-
